@@ -39,7 +39,10 @@ public class tiroBullet : MonoBehaviour
         // Adiciona velocidade a Bullet
         bullet.GetComponent<Rigidbody>().linearVelocity = bullet.transform.forward * bulletSpeed;
 
+
+
         // Destruir Bullet depois de n segundos
         Destroy(bullet, bulletVida);
     }
+
 }
