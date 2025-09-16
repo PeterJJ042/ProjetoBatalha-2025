@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 8528406936929470837}
   - component: {fileID: 3649102948612475290}
   m_Layer: 0
-  m_Name: Tiro
-  m_TagString: PlayerBullet
+  m_Name: Tiro Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

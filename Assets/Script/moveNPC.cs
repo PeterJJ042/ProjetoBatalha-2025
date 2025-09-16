@@ -15,6 +15,7 @@ public class moveNPC : MonoBehaviour
     void Start()
     {
         agente = GetComponent<NavMeshAgent>();
+        alvo = GameObject.FindWithTag("Player").transform;
     }
 
     // Update is called once per frame

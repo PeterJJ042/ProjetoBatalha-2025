@@ -16,7 +16,7 @@ public class tiroInimigo : MonoBehaviour
 
     void Start()
     {
-        
+        alvo = GameObject.FindWithTag("Player").transform;
     }
 
     void FixedUpdate()

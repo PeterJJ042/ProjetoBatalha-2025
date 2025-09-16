@@ -236,6 +236,7 @@ GameObject:
   - component: {fileID: 4980733254082879398}
   - component: {fileID: 2755605546877013390}
   - component: {fileID: 2262412642906353898}
+  - component: {fileID: -200382010167672091}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -412,13 +413,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f27f928c27bc2e4eb79f4ee0b83e90d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletInimigoPrefab: {fileID: 3500771438182134551, guid: d36572929f5659d4aba02ac5c8987ea6, type: 3}
+  bulletInimigoPrefab: {fileID: 3500771438182134551, guid: 18c20ef6778e3fb4a8f65b719431c646, type: 3}
   bulletInimigoSpawn: {fileID: 1543401996784219431}
   bulletInimigoVida: 2
   bulletInimigoSpeed: 6
   visao: 10
   alvo: {fileID: 0}
   fireRate: 1
+--- !u!114 &-200382010167672091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5670930686794254893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b2b1979a5f172546b66469117b12751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionEffect: {fileID: 7975761133346564320, guid: 82d448126dc2b914b866c221d6ec99a5, type: 3}
 --- !u!1 &5697383191498761828
 GameObject:
   m_ObjectHideFlags: 0
