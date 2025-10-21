@@ -2,32 +2,7 @@ using UnityEngine;
 
 public class Bala : MonoBehaviour
 {
-    [SerializeField] private float dano = 20f; 
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        /*
-        // Certifique-se de que o objeto colidido tem a tag "Enemy"
-        if (collision.gameObject.CompareTag("inimigo"))
-        {
-            VidaNPC enemyHealth = collision.gameObject.GetComponent<VidaNPC>();
-            if (enemyHealth != null)
-            {
-                enemyHealth.TakeDamage(20f); // Causa 20 de dano
-            }
-            Destroy(gameObject); // Destrói o projétil ao colidir
-        }
-        */
-    }
+    [SerializeField] private float dano = 20f;
 
     private void OnTriggerEnter(Collider colisao)
     {
@@ -36,7 +11,7 @@ public class Bala : MonoBehaviour
             VidaNPC enemyHealth = colisao.gameObject.GetComponent<VidaNPC>();
             if (enemyHealth != null)
             {
-                enemyHealth.TakeDamage(dano); // Causa dano
+                enemyHealth.TakeDamage(dano); // Causa 20 de dano
             }
             Destroy(gameObject); // Destrói o projétil ao colidir
         }

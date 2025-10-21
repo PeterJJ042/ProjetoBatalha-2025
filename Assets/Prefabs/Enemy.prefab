@@ -147,8 +147,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1.94}
-  m_SizeDelta: {x: 70, y: 20}
+  m_AnchoredPosition: {x: 0, y: -4}
+  m_SizeDelta: {x: 40, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6113225324335062994
 MonoBehaviour:
@@ -822,6 +822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 6113225324335062994}
   maxHealth: 100
+  explosionEffect: {fileID: 7975761133346564320, guid: 82d448126dc2b914b866c221d6ec99a5, type: 3}
 --- !u!1 &5697383191498761828
 GameObject:
   m_ObjectHideFlags: 0

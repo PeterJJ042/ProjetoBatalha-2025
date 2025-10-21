@@ -6,6 +6,7 @@ public class VidaNPC : MonoBehaviour
     public Slider healthBar;
     public float maxHealth = 100f;
     private float currentHealth;
+    public GameObject explosionEffect;
 
     void Start()
     {
@@ -28,5 +29,8 @@ public class VidaNPC : MonoBehaviour
     void Die()
     {
         Destroy(gameObject);
+
+        GameObject effect = Instantiate(explosionEffect, this.transform.position, Quaternion.identity);
+        Destroy(effect, 1f);
     }
 }
